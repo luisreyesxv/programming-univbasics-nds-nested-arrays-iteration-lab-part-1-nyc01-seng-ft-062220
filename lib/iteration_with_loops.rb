@@ -4,7 +4,7 @@ def find_even_values(src)
   for y in src do
     binding.pry
      if [x][y].even?
-       puts [x][y]
+       puts [y]
     end
   end
  end
